@@ -28,8 +28,7 @@ F --> A
 ```
 If you happened to find yourself lost two steps in, that is completely expected. Do not worry, as the algorithm will be explained in more detail.
 
-This program uses Mobilenet-SSD to provide the bounding box coordinate of the detected head region right after the image is captured. This is done by the two lines of code shown here:
-
+This program uses Mobilenet-SSD to provide the bounding box coordinate of the detected head region right after the image is captured.
 
 Afterwards, for every detection found, the program runs a function called censor_img() and you will never guess what it does.
 
