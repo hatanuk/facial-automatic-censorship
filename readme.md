@@ -30,9 +30,7 @@ If you happened to find yourself lost two steps in, that is completely expected.
 
 This program uses Mobilenet-SSD to provide the bounding box coordinate of the detected head region right after the image is captured.
 
-Afterwards, for every detection found, the program runs a function called censor_img() and you will never guess what it does.
-
-Depending on the specified argument "censor-type", a different algorithm is preformed to censor the detected region. 
+Afterwards, for every detection found, the program runs a function called censor_img() and you will never guess what it does; depending on the specified argument "censor-type", a different algorithm is preformed to censor the detected region. 
 
 First, we'll start with "blur":
 
